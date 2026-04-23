@@ -1,0 +1,146 @@
+{
+  "content": [
+    {
+      "type": "hero",
+      "value": {
+        "title": "I live near one of the prettiest tulip gardens in the DMV. This spring, I mapped every bed.",
+        "description": "The National Park Service plants over 50 beds of tulips at the Netherlands Carillon each spring. I set out to identify every single one.",
+        "byline": "By <b><a href=\"https://taylorfayjohnston.com/\">Taylor Johnston</a></b>",
+        "date": "Published April 2026",
+        "illustration": "images/tulip-illo.svg"
+      }
+    },
+    {
+      "type": "text",
+      "value": "Since moving to Arlington, Va., I've made a point to walk over to the Netherlands Carillon every spring. It's easy to miss – tucked between the Marine Corps Memorial and Arlington National Cemetery, off a road most people only drive past."
+    },
+    {
+      "type": "text",
+      "value": "The tower itself is a gift: the <a href=\"https://www.nps.gov/gwmp/learn/historyculture/netherlandscarillon.htm\">Dutch government dedicated it on May 5, 1960</a> – the 15th anniversary of the liberation of the Netherlands from Nazi occupation – as a gesture of gratitude for American aid during and after World War II. Thousands of tulips planted around nearby bloom each spring in vibrant color."
+    },
+    {
+      "type": "text",
+      "value": "The gardens stop people mid-stride. Visitors picnic on the lawn nearby. They hold their phones up. The beds are roped off, so nobody picks anything. You just look."
+    },
+    {
+      "type": "text",
+      "value": "This year I wanted to look closer. Not just at the flowers, but at the data behind them. What types were planted? Where exactly? And could I figure that out myself?"
+    },
+    {
+      "type": "ai2html",
+      "value": {
+        "hed": "Tulip gardens at the Netherlands Carillon",
+        "description": "In front of the carillon, thousands of tulips are planted every spring. The centerpiece is a circular bed with 49 plots arranged in concentric rings. Additional beds are scattered across the surrounding lawn.",
+        "note": "Note: Satellite image is from 2023.",
+        "credits": "Sources: National Park Service, Google Earth",
+        "width": "text-width",
+        "altText": "Satellite image from 2023 showing the general area of the Netherlands Carillon in Arlington, Virginia."
+      }
+    },
+    {
+      "type": "text",
+      "value": "I contacted the National Park Service and they provided me with the tulip name, varieties, planted quantities and their numbered flower bed location. What they couldn't tell me – they're busy, and this wasn't exactly urgent – was which specific numbered bed held which tulip. That part I'd have to figure out myself."
+    },
+    {
+      "type": "text",
+      "value": "So I triangulated. I pulled photos from social media posts, cross-referenced them with my own pictures from visits to the garden, and looked up official variety photos to match colors and petal shapes to specific beds. Bloom timing complicated things – different tulip types peak at different points in spring, so the same bed can look completely different depending on when you visit. While I am reasonably confident in my identification process, it may not be completely correct."
+    },
+    {
+      "type": "text",
+      "value": "One bed defeated me entirely. The data did not contain a Flower Bed 45. Based on photos and what I saw in person, my guess is that the bed is a deliberate mix of tulips and no single dominant type – either planted that way intentionally, or it's something I simply couldn't resolve. I left it marked as unknown."
+    },
+    {
+      "type": "text",
+      "value": "The diagram below is oriented with Bed 1 at the top for readability. In the actual garden, Bed 1 sits directly in front of the carillon tower, with beds running clockwise from there. Bed 45 remains a mystery."
+    },
+    {
+      "type": "tulipmap",
+      "value": {
+        "hed": "The garden, mapped",
+        "description": "Click any section of the diagram to see the tulips planted there – including name, variety and bloom time. Each section is colored based on the dominant color of that tulip.",
+        "note": "",
+        "credits": "",
+        "width": "text-width",
+        "altText": ""
+      }
+    },
+    {
+      "type": "subhed",
+      "value": {
+        "text": "Timing is everything"
+      }
+    },
+    {
+      "type": "text",
+      "value": "One thing I didn't expect to matter as much as it did: timing. The NPS’ planting plan includes a mix of early-, mid-  and late-blooming tulips “to help extend the display and maximize blooms throughout the season,” Jasmine Shanti, a spokesperson for the NPS, said in an email."
+    },
+    {
+      "type": "text",
+      "value": "That means when you visit – and even when I visited to take photos – some beds are already past peak while others are just opening. Understanding bloom windows turned out to be part of how I identified the different tulips."
+    },
+    {
+      "type": "bloomchart",
+      "value": {
+        "hed": "Tulip bloom times, by varieties",
+        "description": "The NPS plants a mix of early-, mid- and late-blooming tulips to extend the display across the season. Meteorologically, spring is defined as March 1 through May 31.",
+        "note": "",
+        "credits": "Source: <a href=\"http://gardenia.net\">Gardenia.net</a>",
+        "width": "text-width",
+        "altText": "Chart showing the different bloom times of the tulip varieties that the NPS planted in spring 2026."
+      }
+    },
+    {
+      "type": "text",
+      "value": "If you're reading this and thinking about visiting – the window is closing. The <a href=\"https://www.usatoday.com/story/news/2026/04/14/how-hot-is-it-in-washington-dc-spring-weather-reaches-historic-levels/89603007007/\">DMV has run warm recently</a>, and the tulips are fading faster than usual. By the time you see this, some beds may already be bare."
+    },
+    {
+      "type": "text",
+      "value": "Here's the full dataset the NPS provided:"
+    },
+    {
+      "type": "table",
+      "value": {
+        "hed": "All tulip types planted by the NPS, spring 2026",
+        "credits": "Source: <a href=\"https://www.nps.gov/index.htm\">National Park Service</a>",
+        "width": "large",
+        "altText": "Describe your chart. This will not appear on the page, but is important for accessibility"
+      }
+    },
+    {
+      "type": "methodology",
+      "value": {
+        "headline": "How I made this",
+        "text": [
+          {
+            "type": "text",
+            "value": "The <a href=\"https://www.nps.gov/index.htm\">National Park Service</a> sent me the tulip data as JPEG images of a table, so my first step was converting them into something usable. I used <a href=\"https://claude.ai/\">Claude</a> to extract the data and structure it into a spreadsheet, then cleaned it up manually."
+          },
+          {
+            "type": "text",
+            "value": "From there, the identification work began. Armed with the tulip names and bed numbers from the NPS, I needed to figure out where each tulip was planted. I sketched a rough diagram of the concentric bed layout in Adobe Illustrator and started cross-referencing: photos I took during my own visits, images I found on Instagram and other social media and official variety photos I turned up by searching each tulip name. For each bed, I was looking for a match on color and petal shape."
+          },
+          {
+            "type": "text",
+            "value": "Color turned out to be harder to pin down than I expected. I wrote a <a href=\"https://www.python.org/\">Python</a> script using the <a href=\"https://pillow.readthedocs.io/en/stable/\">Pillow library</a> to extract the dominant hex color from tulip photos automatically, but the results weren't reliable enough to use. Lighting, photo compression and the complexity of a tulip petal meant the script kept landing on greens and shadows instead of the actual flower color. I scrapped it and did it by hand instead, using Illustrator’s eyedropper tool on each image to pull the most representative color."
+          },
+          {
+            "type": "text",
+            "value": "For the page design, I started with wireframes in <a href=\"http://figma.com\">Figma</a> to work out the structure before writing any code. The biggest layout decision was how to handle the ring diagram. An early version included horizontal strips showing each ring's beds laid out flat alongside the main circle – but after testing it, the strips felt redundant. The circle already told the story; the strips just repeated it in a different shape. I cut them and replaced the detail with a card that appears when you click any bed."
+          },
+          {
+            "type": "text",
+            "value": "The bloom timing data required its own step. Each tulip variety blooms across a window – early, mid or late spring – so I mapped those windows to a five-column structure and built the chart from there. That structure also helped clarify some of the identifications: if a bed I photographed in late April showed a tulip still in peak bloom, it narrowed the candidate varieties to late-blooming types."
+          },
+          {
+            "type": "text",
+            "value": "The project is built in <a href=\"https://svelte.dev/\">Svelte</a>, scaffolded on a <a href=\"https://github.com/johnstont05/netherlands-carillon-tulips\">GitHub repo</a> and hosted on <a href=\"https://www.netlify.com/\">Netlify</a>. The locator map was made using <a href=\"http://ai2html.org/\">ai2html</a>. The flower bed diagram and bloom times chart are both custom Svelte components, built using SVG – the ring diagram uses arc path math to draw each bed segment, and the bloom chart uses a simple grid with color-coded bars. All illustrations are my own, drawn with <a href=\"https://procreate.com/\">Procreate</a> using my iPad and Apple Pencil. The photos used in each bed's card are sourced images – clicking any card links back to the original."
+          },
+          {
+            "type": "text",
+            "value": "View the source code for <a href=\"https://github.com/johnstont05/netherlands-carillon-tulips\">this page</a> on GitHub."
+          }
+        ]
+      }
+    }
+  ]
+}

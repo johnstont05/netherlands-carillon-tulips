@@ -1,0 +1,39 @@
+Paste this into your Google Doc, then run: npm run gdocs
+(Any line that isn't a key: value or [array] is ignored by ArchieML)
+
+─────────────────────────────────────────
+
+title: Netherlands Carillon Tulip Library
+
+subtitle: A living collection of tulip varieties
+
+intro: Welcome to the Netherlands Carillon tulip library — a curated garden of tulip varieties arranged in concentric beds. Each bed holds a different variety, chosen for colour, form, and season.
+
+── CIRCLE BED ──
+
+circle_bed_title: Garden Layout
+
+circle_bed_description: The library beds are arranged in three concentric rings around a central circle. The inner ring holds 6 varieties, the middle ring 16, and the outer ring 26.
+
+[circle_bed_rings]
+
+label: Inner Circle
+description: 6 beds at the heart of the garden
+
+label: Outer Ring 2
+description: 16 beds forming the middle ring
+
+label: Outer Ring 3
+description: 26 beds forming the outer ring
+
+[]
+
+── TABLE ──
+
+table_title: Tulip Varieties
+
+table_description: Browse all varieties by type, size, bed location, and dominant colour extracted from each flower photograph.
+
+── FOOTER ──
+
+footer: Bulbs sourced from ADR Bulbs. Photography and colour analysis by the Carillon team.

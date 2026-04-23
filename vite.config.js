@@ -5,4 +5,10 @@ import { svelte } from '@sveltejs/vite-plugin-svelte'
 export default defineConfig({
   plugins: [svelte()],
   base: '/netherlands-carillon-tulips/',
+  server: {
+    watch: {
+      usePolling: true,
+      interval: 500,
+    },
+  },
 })

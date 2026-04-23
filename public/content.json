@@ -1,0 +1,47 @@
+{
+  "content": [
+    {
+      "type": "circlebed",
+      "value": {}
+    },
+    {
+      "type": "text",
+      "value": "The default selected agency in the graphic above is the University of Connecticut, which paid the most amount of money to its employees in 2022 ($687.55 million)."
+    },
+    {
+      "type": "text",
+      "value": "The graphic includes the pay of the top paid employees, like Geno Auriemma, the UConn women’s basketball coach ($3.8 million), Dan Hurley, the men’s basketball coach ($3.1 million) and Jim Mora, the head football coach ($1.6 million). But it also includes data on other state employees. Among them are police officers, firefighters, office assistants and professors."
+    },
+    {
+      "type": "text",
+      "value": "Kevin Ollie, former UConn men’s basketball coach, received the highest payout from the state in 2022, at nearly $11.15 million. But that was an anomaly. The one-time sum came from an arbitration case he won against the school in early 2022 after claiming he was wrongfully terminated from his role in 2018. He is not included in the graphic."
+    },
+    {
+      "type": "text",
+      "value": "UConn employees dominate the list of highest-paid employees in the state."
+    },
+    {
+      "type": "text",
+      "value": "Stephanie Reitz, a spokesperson for UConn, said “pay is driven by national and regional markets along with the experience and skill set of each individual.”"
+    },
+    {
+      "type": "text",
+      "value": "Search for any full-time state employee with the table below. To read more about the state’s spending on employee pay in 2022, click here."
+    },
+    {
+      "type": "table",
+      "value": {}
+    },
+    {
+      "type": "text",
+      "value": "&lt;i&gt;A previous version of this webpage, within the article text, misstated the total amount paid to men’s basketball coach Dan Hurley.&lt;/i&gt;"
+    },
+    {
+      "type": "methodology",
+      "value": {
+        "title": "About the data",
+        "text": "Data comes from the Connecticut Office of the State Comptroller. The amounts reflect the actual total the state paid each employee, not including fringe benefits. These figures can vary year-to-year. Due to limitations with the state’s payroll data, employees who worked for multiple agencies during 2022 are listed separately for each agency they worked for. The pay shown for an individual may represent a partial year&#39;s compensation if they began or ended work at the agency during 2022. Negative payments are due to payment reversals that were requested by the agency. The names of a relatively small number of state workers were not disclosed; most were student workers whose names were withheld due to federal education privacy rules."
+      }
+    }
+  ]
+}
