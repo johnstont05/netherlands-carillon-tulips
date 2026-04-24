@@ -70,8 +70,8 @@
 <svg width="0" height="0" style="position:absolute">
   <defs>
     <pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
-      <rect width="6" height="6" fill="#e8e8e8"/>
-      <line x1="0" y1="0" x2="0" y2="6" stroke="#c0c0c0" stroke-width="1.5"/>
+      <rect width="6" height="6" fill="#c4c4c4"/>
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#fff" stroke-width="3"/>
     </pattern>
   </defs>
 </svg>
