@@ -3,11 +3,11 @@
     {
       "type": "hero",
       "value": {
-        "title": "I live near one of the prettiest tulip gardens in the DMV. This spring, I mapped every bed.",
-        "description": "The National Park Service plants over 50 beds of tulips at the Netherlands Carillon each spring. I set out to identify every single one.",
+        "title": "I live near one of the prettiest tulip gardens in the DMV. Here’s what’s growing there.",
+        "description": "The National Park Service plants 49 tulips beds in a circular garden at the Netherlands Carillon each spring. I set out to identify every single one.",
         "byline": "By <b><a href=\"https://taylorfayjohnston.com/\">Taylor Johnston</a></b>",
         "date": "Published April 2026",
-        "illustration": "images/tulip-illo.svg"
+        "illustration": ""
       }
     },
     {
@@ -51,7 +51,7 @@
     },
     {
       "type": "text",
-      "value": "The diagram below is oriented with Bed 1 at the top for readability. In the actual garden, Bed 1 sits directly in front of the carillon tower, with beds running clockwise from there. Bed 45 remains a mystery."
+      "value": "The diagram below is oriented with Bed 1 at the top for readability. In the actual garden, Bed 1 sits directly in front of the carillon tower, with beds running clockwise from there. Bed 45 remains a mystery. The lettered beds scattered across the surrounding lawn are not included in this diagram."
     },
     {
       "type": "tulipmap",
@@ -117,7 +117,7 @@
           },
           {
             "type": "text",
-            "value": "From there, the identification work began. Armed with the tulip names and bed numbers from the NPS, I needed to figure out where each tulip was planted. I sketched a rough diagram of the concentric bed layout in Adobe Illustrator and started cross-referencing: photos I took during my own visits, images I found on Instagram and other social media and official variety photos I turned up by searching each tulip name. For each bed, I was looking for a match on color and petal shape."
+            "value": "From there, the identification work began. Armed with the tulip names and bed numbers from the NPS, I needed to figure out which variety was in each of the 49 numbered beds in the circular garden. I sketched a rough diagram of the concentric bed layout in Adobe Illustrator and started cross-referencing: photos I took during my own visits, images I found on Instagram and other social media and official variety photos I turned up by searching each tulip name. For each bed, I was looking for a match on color and petal shape."
           },
           {
             "type": "text",
