@@ -7,7 +7,7 @@
         "description": "The National Park Service plants 49 tulips beds in a circular garden at the Netherlands Carillon each spring. I set out to identify every single one.",
         "byline": "By <b><a href=\"https://taylorfayjohnston.com/\">Taylor Johnston</a></b>",
         "date": "Published April 2026",
-        "illustration": "images/tulip-illo.svg"
+        "illustration": ""
       }
     },
     {
@@ -133,7 +133,7 @@
           },
           {
             "type": "text",
-            "value": "The project is built in <a href=\"https://svelte.dev/\">Svelte</a>, scaffolded on a <a href=\"https://github.com/johnstont05/netherlands-carillon-tulips\">GitHub repo</a> and hosted on <a href=\"https://www.netlify.com/\">Netlify</a>. The locator map was made using <a href=\"http://ai2html.org/\">ai2html</a>. The flower bed diagram and bloom times chart are both custom Svelte components, built using SVG – the ring diagram uses arc path math to draw each bed segment, and the bloom chart uses a simple grid with color-coded bars. All illustrations are my own, drawn with <a href=\"https://procreate.com/\">Procreate</a> using my iPad and Apple Pencil. The photos used in each bed's card are sourced images – clicking any card links back to the original."
+            "value": "The project is built in <a href=\"https://svelte.dev/\">Svelte</a> and hosted on <a href=\"https://www.netlify.com/\">Netlify</a>. The locator map was made using <a href=\"http://ai2html.org/\">ai2html</a>. The flower bed diagram and bloom times chart are both custom Svelte components, built using SVG – the ring diagram uses arc path math to draw each bed segment, and the bloom chart uses a simple grid with color-coded bars. All illustrations are my own, drawn with <a href=\"https://procreate.com/\">Procreate</a> using my iPad and Apple Pencil. The photos used in each bed's card are sourced images – clicking any card links back to the original."
           },
           {
             "type": "text",
